@@ -50,14 +50,12 @@
   .topnav { font-size: 10.5pt; margin-bottom: 8px; }
   
   /* publications list */
-  .pubs { list-style: none; padding-left: 0; }
+  .pubs { list-style: none; padding-left: 0; margin-left: 0; }
   .pubs li { margin: 10px 0; line-height: 1.1; }
   .pubs b { font-weight: 700; }
   
-  /* experience list */
-  .experience { list-style: none; padding-left: 0; }
-  .experience li { margin: 12px 0; line-height: 1.5; }
-  .experience b { font-weight: 700; }
+  /* honors list - left aligned */
+  #honors + ul { margin-left: 0; padding-left: 0; }
   
   /* print */
   @media print {
