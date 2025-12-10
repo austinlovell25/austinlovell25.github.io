@@ -51,8 +51,13 @@
   
   /* publications list */
   .pubs { list-style: none; padding-left: 0; }
-  .pubs li { margin: 14px 0; line-height: 1.6; }
+  .pubs li { margin: 10px 0; }
   .pubs b { font-weight: 700; }
+  
+  /* experience list */
+  .experience { list-style: none; padding-left: 0; }
+  .experience li { margin: 12px 0; line-height: 1.5; }
+  .experience b { font-weight: 700; }
   
   /* print */
   @media print {
